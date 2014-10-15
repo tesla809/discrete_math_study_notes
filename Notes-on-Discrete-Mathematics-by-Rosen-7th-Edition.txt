@@ -1,0 +1,266 @@
+Tesla809
+Notes on:
+
+Discrete Mathematics and its Applications
+With Combinatorics and Graph Theory
+by Kenneth H. Rosen 
+7th Edition
+
+Chapter 1- The Foundations: Logic and Proofs
+Questions from section 1.1 Propositional Logic
+Page 16.
+
+1. Which of these sentences are propositions? What are the truth values of those propositions?
+Boston is the capital of Massachusetts.
+Miami is the capital of Florida
+2 + 3 = 5
+5 + 7 = 10
+x + 2 = 11
+Answer this question.  
+
+Answer: 
+Note that a proposition is a declarative sentence (i.e. one that states a fact), that is either true or false, but not both.
+
+Options a, b, c, and d are propositions. A is true since the capital of Massachusetts is Boston, however b are false because the capital of Florida is Tallahassee not Miami. Option c is a true statement because, indeed last time I checked 2 + 3 = 5.  
+
+Options e and f are not propositions. Option e has a variable which changes whether the statement is true. Option f is just a command, and does not give a fact.
+
+2. Which of these sentences are propositions? What are the truth values of those that are propositions?
+Do not pass go.
+What time is it?
+There are no black flies in Maine.
+4 + x = 5
+The moon is made of green cheese
+2n >= 100
+
+Answers:
+Options a, b and d are not propositions. Option a is a command, not a declarative statement, while option b is a question. Option c is proposition, however, last time I checked most flies were black, and I couldn’t imagine why there wouldn’t be a black one in Maine. If I am wrong, who knows, maybe there was an outbreak or global warming or something. Option d and f are not a propositional statement because depending it has a variable, thus not stating if it is true or false.
+Option e is false. Last time I checked NASA has not issued a statement saying that the Moon is made of green cheese.
+
+
+3. What is the negation of each of these propositions?
+Today is Thursday.
+There is no pollution in New Jersey
+2 + 1 = 3
+The summer in Maine is hot and sunny
+
+Note: A negation is the opposite of the truth value of a proposition. So if the propositional variable p is true, then not p, would be not true aka false.
+
+Answers: 
+would be “Today is not Thursday”.  
+would be “There is pollution in New Jersey”.
+would be 2 + 1 is not equal to 3.
+would “The summer in Maine is not hot and sunny”.
+
+4. Let p and q be propositions
+	p: I bought a lottery ticket this week.
+	q: I won the million dollar jackpot on Friday.
+Express each of these propositions as an English sentence.
+¬p
+p ∨ q
+p → q
+p ^ q
+p ↔︎ q
+¬p → ¬q
+¬p ^ ¬q
+ ¬p ∨ (p ^ q)
+
+Answers:
+I did not buy a lottery ticket this week.
+I bought a lottery ticket this week or I won the million dollar jackpot on Friday.
+If I bought a lottery ticket this week then I won the million dollar jackpot on Friday.
+I bought a lottery ticket this week and I won the million dollar jackpot on Friday. (Lucky you, haha)
+I bought a lottery ticket this week if and only if I won the million dollar jackpot on Friday. (You greedy bastard, haha).
+If I did not buy a lottery ticket this week then I did not win the million dollar jackpot on Friday.
+I did not buy a lottery ticket this week and I did not win the million dollar jackpot on Friday. (Boo hoo).
+I did not buy a lottery ticket this week or I bought a lottery ticket this week and I won the million dollar jackpot on Friday! (What are you trying to hide, sir!?)
+
+
+
+
+5. Let p and Q be the propositions “Swimming at the New Jersey shore is allowed” and “Sharks have been spotted near the shore”, respectively. Express each of these compound statements as an English sentence.
+
+Note: A compound statement is a statement with connectives joining it. Connectives are the and, or, if then words that we have been using.
+ ¬q
+ p ^ q
+p → q
+p → ¬q
+p ↔︎ q
+¬p → ¬q
+¬p ^ ¬q
+¬p ∨ (p ^ q)
+
+Swimming at the New Jersey shore is NOT allowed.
+Swimming at the New Jersey shore is allowed AND sharks have been spotted near the shore.
+IF swimming at the New Jersey Shore is allowed, THEN sharks have been spotted near the shore.
+IF swimming at the New Jersey Shore is allowed, THEN sharks have NOT been spotted near the shore.
+Swimming at the New Jersey Shore is allowed IF AND ONLY IF sharks have been spotted near the shore.
+IF swimming at the New Jersey Shore is NOT allowed, THEN sharks have NOT been spotted at the shore.
+Swimming at the New Jersey Shore is NOT allowed AND sharks have NOT been spotted at the shore.
+Swimming at the New Jersey Shore is NOT allowed, OF swimming at the New Jersey Shore is allowed AND sharks have NOT been spotted at the shore.
+
+
+6. Let p and q be propositions “The election is decided” and “The votes have been counted,” respectively. Express each of these compound propositions as an English Sentence.
+
+¬p
+p ∨ q
+¬p ^ q
+q → p
+¬q → ¬p
+¬p → ¬q
+p ↔︎ q
+¬q ∨ ( ¬p ∨ q)
+
+The election has NOT been decided
+The election has been OR the votes have been counted.
+The election has NOT been decided AND the votes have been counted.
+IF the votes have been counted, THEN the election has been decided.
+IF the votes have NOT been counted THEN the election has NOT been decided.
+IF the election has NOT been decided, THEN the votes have NOT been counted.
+The election has been decided IF AND ONLY IF the votes have been counted.
+IF the votes have NOT been counted, the election has NOT been decided OR the votes have been counted.
+
+7. Let p and q be the propositions
+	p: It is below freezing
+	q: It is snowing
+Write these propositions using p and q and logical connectives:
+
+It is below freezing AND it is snowing
+It is below freezing BUT NOT snowing
+It is NOT below freezing AND it is NOT snowing
+IT is EITHER snowing OR below freezing (OR BOTH).
+IF it is below freezing, IT IS ALSO snowing.
+It is EITHER below freezing OR it is snowing, BUT it is NOT snowing, IF it is below freezing.
+That it  is below freezing IS NECESSARY AND SUFFICIENT for it to be SNOWING.
+
+p ^ q
+p ^ ¬q -Note that the keyword BUT indicates a conjunction aka AND (^).
+¬p ^ ¬q
+p ∨ q
+p → q 
+p ⊕ q ^ (p → ¬q) Note: According to the book the correct answer actually is  (p ∨ q) ^ (p → ¬q).
+	The parentheses are used to precisely indicate the order of operations. Why isn’t it the exclusive or though? Either … OR would indicate exclusivity. I believe that the authors of the book are a mistake however. Everywhere else I look, the use of Either … Or is said to indicate an exclusive relationship between two logical statements.
+q ↔︎ p
+
+8. Let p, q, r be propositions
+	p: You have the flu
+	q: You miss the final examination
+	r:  You pass the course
+Express each of these propositions as an English sentence
+p → q
+¬q ↔︎ r
+q → ¬r
+p ∨ q ∨ r
+(p → ¬r) ∨ (¬q → ¬r)
+(p ^ q) ∨ (¬q ^ r)
+
+IF you have the flu THEN you miss the final examination
+IF you DO NOT have the flu, THEN IT IS NECESSARY AND SUFFICIENT that you passed the course.
+IF you miss the final examination, THEN you do NOT pass the course.
+You have the flu OR you miss the final examination OR you pass the course
+EITHER IF you have the flu, THEN you DO NOT pass the course OR IF you DO NOT miss the final examination, THEN you  DO NOT pass the course. 
+	Note that I am using the Either … or in the inclusive sense. I still have to figure out how to use it properly to denote the exclusive or (XOR ⊕) and the inclusive or (OR ∨).
+EITHER you have the flu AND you pass the course, OR you DO NOT miss the final examination AND you pass the course. 
+
+
+9. Let p and q be propositions
+	p: You drive over 65 miles per hour
+	q: You get a speeding ticket
+Write these propositions using p and q and logical connectives:
+
+You DO NOT drive over 65 miles per hour.
+You drive over 65 miles per hour, BUT you DO NOT get a speeding ticket.
+You will get a speeding ticket IF you drive over 65 miles per hour.
+IF you DO NOT drive over 65 miles per hour, THEN you will NOT get a speeding ticket.
+Driving over 65 miles per hour IS SUFFICIENT for you to get a speeding ticket.
+You get a speeding ticket, BUT you DO NOT drive over 65 miles per hour.
+WHENEVER you get a speeding ticket, you are driving over 65 miles per hour.
+
+¬p
+p ^ ¬q
+p  → q
+¬p → ¬q
+p → q
+q ^ ¬p
+q → p
+	Note that “WHENEVER you get a speeding ticket, you are driving over 65 miles per hour” is different than “you get a speeding ticket WHENEVER you are driving over 65 miles per hour”. The first translate to q → p, because “WHENEVER you get a speeding ticket” is the hypothesis, and the conclusion is “you are driving over 65 miles per hour”. If WHENEVER is in the middle or before you are driving over 65 miles per hour, then it translates to q → p. Also note that in p → q (also called an implication), p is the called the hypothesis (or the premise or antecedent) , and q is called the conclusion (or consequence).
+
+
+
+
+
+
+
+10. Let p, q and r be the propositions:
+	p: You get an A on the final exam.
+	q: You do every exercise in this book.
+	r: You get an A in this class.
+Write the these propositions using p, q, and r and logical connectives.
+
+You get an A in this class, BUT you DON’T do every exercise in this book
+You get an A in the final, you do every exercise in this book, and you get an A in this class. 
+To get an A in this class, IT IS NECESSARY for you to get an A on the final.
+You get an A on the final, BUT you DON’T do every exercise in this book; NEVERTHELESS, you get  an A  in this class.
+Getting an A on the final AND doing every exercise in this book IS SUFFICIENT for getting an A in this class.
+You will get an A in this class IF AND ONLY IF you either do every exercise in this book OR you get an A on the final.
+
+r ^ ¬q
+p ^ q ^ r
+p → r
+(p ^ ¬q) ^ r
+	Note that NEVERTHELESS is a keyword for the conjoiner AND(^). Other words include “but,” “although," and "however “yet,”.
+
+e) (p ^ q) → r
+f) r ↔︎ (p ∨ q)
+
+11. Let p, q and r be the propositions:
+	p: Grizzly bears have been seen in the area.
+	q: Hiking is safe on the trail
+	r: Berries are ripe along the trail
+Write the these propositions using p, q, and r and logical connectives.
+
+Berries are ripe along the trail, BUT grizzly bears have NOT been seen in the area.
+Grizzly bears have NOT been seen in the area AND hiking on the trail is safe, BUT berries are ripe along the trail.
+IF berries are ripe along the trail, hiking is safe on the trail IF AND ONLY IF Grizzly bears have NOT been seen in the area.
+It is NOT safe to hike on the trail, BUT grizzly bears have NOT been seen in the area AND the berries along the trail are ripe.
+FOR hiking on the trail to be safe, IT IS NECESSARY BUT NOT SUFFICIENT that berries NOT be ripe along the trail AND for Grizzly bears NOT to have been seen in the area.
+Hiking is NOT safe on the trail WHENEVER grizzly bears have been seen in the area AND berries are ripe along the trail.
+
+r ^ ¬p
+¬p ^ q ^ r
+r → (q ↔︎ ¬p)
+¬q ^ ¬p ^ r
+
+
+
+
+
+(q → (¬r ^ ¬p))
+	Note: This writer seems to be bugging. The answer they put down was:
+	(q → (¬r ^ ¬p)) ^ ¬((¬r ^ ¬p) → q).
+	It feels like a trick question, but upon inspection it makes sense. The reason the answer seems so long is because of the question “how do we express a NOT bi conditional relationship?” . The answer is simple, just find an equivalent expression we can use to break it into two parts. Why, because we can’t use ¬↔︎.
+
+I chose to omit it as superfluous words, because I made the mistake of lumping “BUT NOT SUFFICIENT” together. This was due to thinking that not assuming that every word needs to be considered, because a not bi conditional relationship was just a implication (aka →).
+
+By adding (q → (¬r ^ ¬p)), I only placed the “IT IS NECESSARY” part. However, the second part of the logical statement ^ ¬((¬r ^ ¬p) → q) completes the requirement for “BUT NOT SUFFICIENT”. 
+
+Let’s break down the statement “IT IS NECESSARY BUT NOT SUFFICIENT” into its simplest form and analyze it, which is “IT IS NECESSARY [and] SUFFICIENT” (↔︎), “BUT” (^), and “NOT” (¬).  “IT IS NECESSARY AND SUFFICIENT” is a keyword for a bi-conditional operator (↔︎) which is equivalent to IF AND ONLY IF.  So if we cannot do ¬↔︎, we will look for an equivalent expression that allows us to do something similar.
+
+With this in mind, remember that p ↔︎ q is logically equivalent to p → q AND  q → p.  The second part, q → p, is what is missing. By adding in the NOT, and AND statements, we can have something like  (p → q) ^  (¬(q → p)) as the basic rubric for the solution for our problem. 
+
+(p ^ r) → ¬q 
+
+12. Determine whether these bi-conditionals are true or false.
+2 + 2 = 4 if and only if 1 + 1 = 2
+1 + 1 = 2 if and only if 2 + 3 = 4
+1 + 1 = 3 if and only if monkeys can fly 
+0 > 1 if and only if 2 > 1
+
+true
+false
+false (unless the government has a secret project that i am not aware of).
+false
+
+13. Determine whether each of these conditional statements is true or false.
+If 1 + 1 = 2, then 2 + 2 = 5.
+If 1 + 1 = 3, then 2 + 2 = 4.
