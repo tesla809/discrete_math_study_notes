@@ -1,7 +1,7 @@
 discrete_math_study_notes
 =========================
 
-Study notes on Discrete Math from Discrete Mathematics and its Applications with Combinatorics and Graph Theory by Rosen. Vol 7., along with other texts
+These are my study notes on the book "Discrete Math from Discrete Mathematics and its Applications with Combinatorics and Graph Theory" by Kenneth Rosen. Vol 7. (Special Indian Edition). I will also add study notes from other books which aid in my comprehension of the topic.
 
 Due to the importance of mathematics in creating algorithms and data structures, it is essential to learn discrete mathematics. I am using "Discrete Math from Discrete Mathematics and its Applications with Combinatorics and Graph Theory" by Rosen. Vol 7 to learn the material. There are other notes online which I will use as well and will add them as seperate files. 
 
